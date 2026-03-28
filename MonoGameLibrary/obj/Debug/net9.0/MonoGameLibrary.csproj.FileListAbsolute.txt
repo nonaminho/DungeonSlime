@@ -1,0 +1,12 @@
+d:\github.com\nonaminho\DungeonSlime\MonoGameLibrary\bin\Debug\net9.0\MonoGameLibrary.deps.json
+d:\github.com\nonaminho\DungeonSlime\MonoGameLibrary\bin\Debug\net9.0\MonoGameLibrary.dll
+d:\github.com\nonaminho\DungeonSlime\MonoGameLibrary\bin\Debug\net9.0\MonoGameLibrary.pdb
+d:\github.com\nonaminho\DungeonSlime\MonoGameLibrary\obj\Debug\net9.0\MonoGameLibrary.csproj.AssemblyReference.cache
+d:\github.com\nonaminho\DungeonSlime\MonoGameLibrary\obj\Debug\net9.0\MonoGameLibrary.GeneratedMSBuildEditorConfig.editorconfig
+d:\github.com\nonaminho\DungeonSlime\MonoGameLibrary\obj\Debug\net9.0\MonoGameLibrary.AssemblyInfoInputs.cache
+d:\github.com\nonaminho\DungeonSlime\MonoGameLibrary\obj\Debug\net9.0\MonoGameLibrary.AssemblyInfo.cs
+d:\github.com\nonaminho\DungeonSlime\MonoGameLibrary\obj\Debug\net9.0\MonoGameLibrary.csproj.CoreCompileInputs.cache
+d:\github.com\nonaminho\DungeonSlime\MonoGameLibrary\obj\Debug\net9.0\MonoGameLibrary.dll
+d:\github.com\nonaminho\DungeonSlime\MonoGameLibrary\obj\Debug\net9.0\refint\MonoGameLibrary.dll
+d:\github.com\nonaminho\DungeonSlime\MonoGameLibrary\obj\Debug\net9.0\MonoGameLibrary.pdb
+d:\github.com\nonaminho\DungeonSlime\MonoGameLibrary\obj\Debug\net9.0\ref\MonoGameLibrary.dll
