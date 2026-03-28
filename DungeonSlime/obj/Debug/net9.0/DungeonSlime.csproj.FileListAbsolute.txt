@@ -34,3 +34,4 @@ d:\github.com\nonaminho\DungeonSlime\DungeonSlime\obj\Debug\net9.0\ref\DungeonSl
 d:\github.com\nonaminho\DungeonSlime\DungeonSlime\bin\Debug\net9.0\MonoGameLibrary.dll
 d:\github.com\nonaminho\DungeonSlime\DungeonSlime\bin\Debug\net9.0\MonoGameLibrary.pdb
 d:\github.com\nonaminho\DungeonSlime\DungeonSlime\bin\Debug\net9.0\Content\images\logo.xnb
+d:\github.com\nonaminho\DungeonSlime\DungeonSlime\obj\Debug\net9.0\DungeonSlime.sourcelink.json

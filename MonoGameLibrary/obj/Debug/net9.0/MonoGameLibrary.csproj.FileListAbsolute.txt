@@ -10,3 +10,4 @@ d:\github.com\nonaminho\DungeonSlime\MonoGameLibrary\obj\Debug\net9.0\MonoGameLi
 d:\github.com\nonaminho\DungeonSlime\MonoGameLibrary\obj\Debug\net9.0\refint\MonoGameLibrary.dll
 d:\github.com\nonaminho\DungeonSlime\MonoGameLibrary\obj\Debug\net9.0\MonoGameLibrary.pdb
 d:\github.com\nonaminho\DungeonSlime\MonoGameLibrary\obj\Debug\net9.0\ref\MonoGameLibrary.dll
+d:\github.com\nonaminho\DungeonSlime\MonoGameLibrary\obj\Debug\net9.0\MonoGameLibrary.sourcelink.json

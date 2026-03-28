@@ -42,11 +42,46 @@ public class Game1 : Core
     protected override void Draw(GameTime gameTime)
     {
         GraphicsDevice.Clear(Color.CornflowerBlue);
+
+        Rectangle iconSourceRect = new Rectangle(0,0,128,128);
+        Rectangle textSourceRect = new Rectangle(150,34,458,58);
+
         // Begin the sprite batch to prepare for rendering.
-        SpriteBatch.Begin();
+        SpriteBatch.Begin(sortMode: SpriteSortMode.FrontToBack);
 
         //Draw the logo texture
-        SpriteBatch.Draw(_logo, Vector2.Zero, Color.White);
+        SpriteBatch.Draw(
+            _logo,                                  // texture
+            new Vector2(                            // position
+                (Window.ClientBounds.Width * 0.5f),
+                (Window.ClientBounds.Height * 0.5f)),
+            iconSourceRect,                                   // sourceRectangle
+            Color.White,                            // color
+            0.0f,                                   // rotation
+            new Vector2(                            // origin
+                (iconSourceRect.Width * 0.5f),
+                (iconSourceRect.Height * 0.5f)),       
+            1.0f,                                   // scale
+            SpriteEffects.None,                     // effects
+            1.0f                                    // layerDepth
+        );
+
+        //Draw the text texture
+        SpriteBatch.Draw(
+            _logo,                                  // texture
+            new Vector2(                            // position
+                (Window.ClientBounds.Width * 0.5f),
+                (Window.ClientBounds.Height * 0.5f)),
+            textSourceRect,                                   // sourceRectangle
+            Color.White,                            // color
+            0.0f,                                   // rotation
+            new Vector2(                            // origin
+                (textSourceRect.Width * 0.5f),
+                (textSourceRect.Height * 0.5f)),       
+            1.0f,                                   // scale
+            SpriteEffects.None,                     // effects
+            0.0f                                    // layerDepth
+        );
 
         // Always end the sprite batch when finished.
         SpriteBatch.End();
