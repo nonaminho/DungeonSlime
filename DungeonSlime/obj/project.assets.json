@@ -317,11 +317,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "d:\\github.com\\nonaminho\\DungeonSlime\\DungeonSlime\\DungeonSlime.csproj",
+      "projectUniqueName": "D:\\github.com\\nonaminho\\DungeonSlime\\DungeonSlime\\DungeonSlime.csproj",
       "projectName": "DungeonSlime",
-      "projectPath": "d:\\github.com\\nonaminho\\DungeonSlime\\DungeonSlime\\DungeonSlime.csproj",
+      "projectPath": "D:\\github.com\\nonaminho\\DungeonSlime\\DungeonSlime\\DungeonSlime.csproj",
       "packagesPath": "C:\\Users\\Vitor\\.nuget\\packages\\",
-      "outputPath": "d:\\github.com\\nonaminho\\DungeonSlime\\DungeonSlime\\obj\\",
+      "outputPath": "D:\\github.com\\nonaminho\\DungeonSlime\\DungeonSlime\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -343,8 +343,8 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "d:\\github.com\\nonaminho\\DungeonSlime\\MonoGameLibrary\\MonoGameLibrary.csproj": {
-              "projectPath": "d:\\github.com\\nonaminho\\DungeonSlime\\MonoGameLibrary\\MonoGameLibrary.csproj"
+            "D:\\github.com\\nonaminho\\DungeonSlime\\MonoGameLibrary\\MonoGameLibrary.csproj": {
+              "projectPath": "D:\\github.com\\nonaminho\\DungeonSlime\\MonoGameLibrary\\MonoGameLibrary.csproj"
             }
           }
         }
