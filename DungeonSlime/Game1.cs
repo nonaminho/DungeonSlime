@@ -3,13 +3,15 @@ using Microsoft.Xna.Framework.Content;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 using MonoGameLibrary;
+using MonoGameLibrary.Graphics;
 
 namespace DungeonSlime;
 
 public class Game1 : Core
 {
     // The MonoGame logo texture    
-    private Texture2D _logo;
+    private TextureRegion _slime;
+    private TextureRegion _bat;
     public Game1() : base("Dungeon Slime", 1280, 720, false)
     {
 
@@ -25,8 +27,10 @@ public class Game1 : Core
 
     protected override void LoadContent()
     {
-        // TODO: use this.Content to load your game content here
-        _logo = Content.Load<Texture2D>("images/logo");
+        // Carrega o atlas do arquivo XML
+        TextureAtlas atlas = TextureAtlas.FromFile(Content, "images/atlas-definition.xml");
+        _slime = atlas.GetRegion("slime");
+        _bat = atlas.GetRegion("bat");
     }
 
     protected override void Update(GameTime gameTime)
@@ -43,46 +47,12 @@ public class Game1 : Core
     {
         GraphicsDevice.Clear(Color.CornflowerBlue);
 
-        Rectangle iconSourceRect = new Rectangle(0,0,128,128);
-        Rectangle textSourceRect = new Rectangle(150,34,458,58);
-
         // Begin the sprite batch to prepare for rendering.
-        SpriteBatch.Begin(sortMode: SpriteSortMode.FrontToBack);
+        SpriteBatch.Begin(samplerState: SamplerState.PointClamp);
 
-        //Draw the logo texture
-        SpriteBatch.Draw(
-            _logo,                                  // texture
-            new Vector2(                            // position
-                (Window.ClientBounds.Width * 0.5f),
-                (Window.ClientBounds.Height * 0.5f)),
-            iconSourceRect,                                   // sourceRectangle
-            Color.White,                            // color
-            0.0f,                                   // rotation
-            new Vector2(                            // origin
-                (iconSourceRect.Width * 0.5f),
-                (iconSourceRect.Height * 0.5f)),       
-            1.0f,                                   // scale
-            SpriteEffects.None,                     // effects
-            1.0f                                    // layerDepth
-        );
-
-        //Draw the text texture
-        SpriteBatch.Draw(
-            _logo,                                  // texture
-            new Vector2(                            // position
-                (Window.ClientBounds.Width * 0.5f),
-                (Window.ClientBounds.Height * 0.5f)),
-            textSourceRect,                                   // sourceRectangle
-            Color.White,                            // color
-            0.0f,                                   // rotation
-            new Vector2(                            // origin
-                (textSourceRect.Width * 0.5f),
-                (textSourceRect.Height * 0.5f)),       
-            1.0f,                                   // scale
-            SpriteEffects.None,                     // effects
-            0.0f                                    // layerDepth
-        );
-
+        _slime.Draw(SpriteBatch, Vector2.Zero, Color.White, 0.0f, Vector2.One, 4.0f, SpriteEffects.None, 0.0f);
+        
+        _bat.Draw(SpriteBatch, new Vector2(_slime.Width * 4.0f + 10, 0), Color.White, 0.0f, Vector2.One, 4.0f, SpriteEffects.None, 1.0f);
         // Always end the sprite batch when finished.
         SpriteBatch.End();
 

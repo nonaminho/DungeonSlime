@@ -4,9 +4,11 @@
   <Platform>DesktopGL</Platform>
   <Config />
   <SourceFiles>
-    <File>d:/github.com/nonaminho/DungeonSlime/DungeonSlime/Content/images/logo.png</File>
+    <File>C:/Users/Vitor/workspace/github.com/nonaminho/DungeonSlime/DungeonSlime/Content/images/atlas.png</File>
+    <File>C:/Users/Vitor/workspace/github.com/nonaminho/DungeonSlime/DungeonSlime/Content/images/logo.png</File>
   </SourceFiles>
   <DestFiles>
+    <File xsi:nil="true" />
     <File xsi:nil="true" />
   </DestFiles>
 </SourceFileCollection>

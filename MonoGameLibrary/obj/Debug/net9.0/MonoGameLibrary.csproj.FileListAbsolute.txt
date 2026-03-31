@@ -11,3 +11,16 @@ d:\github.com\nonaminho\DungeonSlime\MonoGameLibrary\obj\Debug\net9.0\refint\Mon
 d:\github.com\nonaminho\DungeonSlime\MonoGameLibrary\obj\Debug\net9.0\MonoGameLibrary.pdb
 d:\github.com\nonaminho\DungeonSlime\MonoGameLibrary\obj\Debug\net9.0\ref\MonoGameLibrary.dll
 d:\github.com\nonaminho\DungeonSlime\MonoGameLibrary\obj\Debug\net9.0\MonoGameLibrary.sourcelink.json
+C:\Users\Vitor\workspace\github.com\nonaminho\DungeonSlime\MonoGameLibrary\bin\Debug\net9.0\MonoGameLibrary.deps.json
+C:\Users\Vitor\workspace\github.com\nonaminho\DungeonSlime\MonoGameLibrary\bin\Debug\net9.0\MonoGameLibrary.dll
+C:\Users\Vitor\workspace\github.com\nonaminho\DungeonSlime\MonoGameLibrary\bin\Debug\net9.0\MonoGameLibrary.pdb
+C:\Users\Vitor\workspace\github.com\nonaminho\DungeonSlime\MonoGameLibrary\obj\Debug\net9.0\MonoGameLibrary.csproj.AssemblyReference.cache
+C:\Users\Vitor\workspace\github.com\nonaminho\DungeonSlime\MonoGameLibrary\obj\Debug\net9.0\MonoGameLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Vitor\workspace\github.com\nonaminho\DungeonSlime\MonoGameLibrary\obj\Debug\net9.0\MonoGameLibrary.AssemblyInfoInputs.cache
+C:\Users\Vitor\workspace\github.com\nonaminho\DungeonSlime\MonoGameLibrary\obj\Debug\net9.0\MonoGameLibrary.AssemblyInfo.cs
+C:\Users\Vitor\workspace\github.com\nonaminho\DungeonSlime\MonoGameLibrary\obj\Debug\net9.0\MonoGameLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Vitor\workspace\github.com\nonaminho\DungeonSlime\MonoGameLibrary\obj\Debug\net9.0\MonoGameLibrary.sourcelink.json
+C:\Users\Vitor\workspace\github.com\nonaminho\DungeonSlime\MonoGameLibrary\obj\Debug\net9.0\MonoGameLibrary.dll
+C:\Users\Vitor\workspace\github.com\nonaminho\DungeonSlime\MonoGameLibrary\obj\Debug\net9.0\refint\MonoGameLibrary.dll
+C:\Users\Vitor\workspace\github.com\nonaminho\DungeonSlime\MonoGameLibrary\obj\Debug\net9.0\MonoGameLibrary.pdb
+C:\Users\Vitor\workspace\github.com\nonaminho\DungeonSlime\MonoGameLibrary\obj\Debug\net9.0\ref\MonoGameLibrary.dll
