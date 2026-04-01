@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/Vitor/workspace/github.com/nonaminho/DungeonSlime",
-      "program": "c:/Users/Vitor/workspace/github.com/nonaminho/DungeonSlime/build/Debug/outDebug",
+      "cwd": "c:/Users/Vitor/workspace/github.com/nonaminho/DungeonSlime/DungeonSlime/bin/Debug/net9.0",
+      "program": "c:/Users/Vitor/workspace/github.com/nonaminho/DungeonSlime/DungeonSlime/bin/Debug/net9.0/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
