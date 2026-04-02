@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <SourceFile>C:/Users/Vitor/workspace/github.com/nonaminho/DungeonSlime/DungeonSlime/Content/images/logo.png</SourceFile>
-  <SourceTime>2026-03-30T18:45:11.3588846-03:00</SourceTime>
+  <SourceTime>2026-04-02T18:25:49.3498032-03:00</SourceTime>
   <DestFile>C:/Users/Vitor/workspace/github.com/nonaminho/DungeonSlime/DungeonSlime/Content/bin/DesktopGL/Content/images/logo.xnb</DestFile>
-  <DestTime>2026-03-30T20:31:57.7825961-03:00</DestTime>
+  <DestTime>2026-04-02T18:27:12.2882442-03:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2025-10-20T11:25:32-03:00</ImporterTime>
   <Processor>TextureProcessor</Processor>

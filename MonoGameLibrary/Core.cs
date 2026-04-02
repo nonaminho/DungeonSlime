@@ -102,7 +102,8 @@ public class Core : Game
         // Create the sprite batch instance.
         SpriteBatch = new SpriteBatch(GraphicsDevice);
 
-        // Create a new input 
+        // Create a new input
+        Input = new InputManager();
     }
 
     protected override void Update(GameTime gameTime)
